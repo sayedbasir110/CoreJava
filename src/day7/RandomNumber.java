@@ -7,6 +7,5 @@ public class RandomNumber {
         Random random=new Random();
         int randomNumber = random.nextInt(101);
 
-
     }
 }
