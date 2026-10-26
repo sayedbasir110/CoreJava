@@ -1,5 +1,6 @@
 package day10;
 
+import java.util.Arrays;
 import java.util.Locale;
 
 public class StringMethods {
@@ -34,6 +35,18 @@ public class StringMethods {
         System.out.println(word.toUpperCase());
         // toLowerCase()
         System.out.println(word.toLowerCase());
+        // slit()- divides a string into parts based on a character
+        String str="Welcome to java class";
+        System.out.println(Arrays.toString(str.split(" "))); // array of strings
+        String email="abc123@gmail.com";
+        String array[]=email.split("@");
+        System.out.println(Arrays.toString(array));
+        // toCharArray()- divides the string into array of characters
+        char character[]=str.toCharArray();
+        System.out.println(Arrays.toString(character));
+        // replaceAll()- regex
+        String myString="@!He34l--$lo67s";
+        System.out.println(myString.replaceAll("[^0-9a-zA-Z]",""));
 
 
     }
