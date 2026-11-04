@@ -11,4 +11,5 @@ public class Dog extends Animal{
         super.sound();
         System.out.println("Dog barks!");
     }
+
 }

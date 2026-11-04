@@ -1,5 +1,7 @@
 package day1;
 
+import day17.AccessModifier;
+
 public class Variables {
 
     public static void main(String[] args){
@@ -17,6 +19,8 @@ public class Variables {
         System.out.println("value of b is:"+b);
         System.out.println("value of c is:"+c);
         System.out.println("sum of a,b&c is:"+(a+b+c));
+
+        System.out.println(AccessModifier.name);
 
 
     }

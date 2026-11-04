@@ -11,5 +11,7 @@ public class AnimalMain {
         catObj.sound();
         puppyObj.displayInfo();
         puppyObj.sound();
+        System.out.println(Animal.variable);
+
     }
 }

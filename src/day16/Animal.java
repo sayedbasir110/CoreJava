@@ -4,6 +4,7 @@ public class Animal {
     String name;
     String category;
     String gender;
+    static String variable="Welcome";
 
     Animal(String name,String category, String gender){
         this.name=name;
@@ -24,4 +25,5 @@ public class Animal {
     void sleep(){
         System.out.println("Animal sleeps!");
     }
+
 }
