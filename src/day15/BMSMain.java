@@ -6,8 +6,8 @@ public class BMSMain {
     static void main() {
         BMS account = new BMS(
                 "ACC1001",
-                "Ali",
-                1000,
+                "Ahmad",
+                -2,
                 "1234"
         );
         account.deposit(200);
